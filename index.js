@@ -1,15 +1,20 @@
 
 let username=prompt('enter username')
+let product=prompt('enter product')
+let price=prompt('enter price')
+let day=prompt('enter day')
+let occassion=prompt('enter occassion')
+let platform=prompt('platform')
 let user_object={
     username:username,
-    product:"washing_machine",
-    price:"25000",
-    day:"monday",
-    occassion:"pongal",
-    plafform:"amazon",
+    product: product,
+    price:price,
+    day: day,
+    occassion:occassion,
+    platform:platform,
 }
-console.log(`${user_object.username} has purchased a ${user_object.product} which costs ${user_object.price} on ${user_object.day} on occassion of ${user_object.occassion} in ${user_object.plafform}`)
-alert(`${user_object.username} has purchased a ${user_object.product} which costs ${user_object.price} on ${user_object.day} on occassion of ${user_object.occassion} in ${user_object.plafform}`)
+console.log(`${user_object.username} has purchased a ${user_object.product} which costs ${user_object.price} on ${user_object.day} on occassion of ${user_object.occassion} in ${user_object.platform}`)
+alert(`${user_object.username} has purchased a ${user_object.product} which costs ${user_object.price} on ${user_object.day} on occassion of ${user_object.occassion} in ${user_object.platform}`)
 
 
 
